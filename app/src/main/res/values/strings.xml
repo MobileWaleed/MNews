@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MNews</string>
+    <string name="hint_search">Search News</string>
+    <string name="action_filter">Filter Results</string>
+    <string name="select_language">Select Language</string>
+    <string name="search_keyword">Search Keyword</string>
+    <string name="hint_default_keyword">Default Keyword</string>
+    <string name="sory_by">Sort By</string>
+    <string name="radio_btn_published_at">Publish Date</string>
+    <string name="radio_btn_relevancy">Relevancy</string>
+    <string name="radio_btn_popularity">Popularity</string>
+    <string name="dialog_btn_apply">Apply Changes</string>
+    <string name="btn_retry">Retry</string>
+    <string name="dialog_btn_cancel">Cancel</string>
+    <string name="noImageAvailable">No image available</string>
+    <string name="articleFeatureImage">Article feature image</string>
+    <!-- Error Message -->
+    <string name="error_loading">Could not fetch news!</string>
+    <string name="error_no_results">No News found :(</string>
+    <string name="error.default.loadingFailed">Unable to load content</string>
+    <string name="error.default.tryAgain">Try Again</string>
+    <string name="error.unableToLoadArticle">Unable to load article</string>
+    <string name="last_updated">Last Updated </string>
+    <string name="just_now">Just Now</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="unknowen_author">UnKnown Author</string>
+    <string-array name="language_name_array">
+        <item>All</item>
+        <item>English</item>
+        <item>German</item>
+        <item>Arabic</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>Italian</item>
+        <item>Dutch</item>
+        <item>Portuguese</item>
+        <item>Russian</item>
+        <item>Chinese</item>
+    </string-array>
+    <string-array name="language_code_array">
+        <item>all</item>
+        <item>en</item>
+        <item>de</item>
+        <item>ar</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>it</item>
+        <item>nl</item>
+        <item>pt</item>
+        <item>ru</item>
+        <item>zh</item>
+    </string-array>
+</resources>
