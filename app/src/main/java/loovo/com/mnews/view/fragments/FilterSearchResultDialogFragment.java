@@ -21,7 +21,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import loovo.com.mnews.MNewsApp;
 import loovo.com.mnews.R;
-import loovo.com.mnews.repository.model.MySharedPreferences;
+import loovo.com.mnews.helpers.MySharedPreferences;
 import loovo.com.mnews.repository.model.SearchFilter;
 import loovo.com.mnews.utils.Const;
 import loovo.com.mnews.view.adapters.SpinnerAdapter;

@@ -14,8 +14,8 @@ import java.util.List;
 import javax.inject.Inject;
 
 import loovo.com.mnews.db.entity.NewsItem;
+import loovo.com.mnews.helpers.MySharedPreferences;
 import loovo.com.mnews.repository.MNewsRepository;
-import loovo.com.mnews.repository.model.MySharedPreferences;
 import loovo.com.mnews.repository.model.SearchFilter;
 import loovo.com.mnews.utils.Resource;
 
