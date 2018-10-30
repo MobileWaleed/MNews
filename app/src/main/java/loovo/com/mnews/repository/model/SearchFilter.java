@@ -15,7 +15,6 @@ public class SearchFilter {
     }
     @Inject
     public SearchFilter(){
-        System.out.println("new search filter created");
     }
     public void setKeyWord(String keyWord)
     {

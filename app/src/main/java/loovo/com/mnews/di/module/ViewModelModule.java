@@ -16,7 +16,7 @@ public abstract class ViewModelModule {
     @Binds
     @IntoMap
     @ViewModelKey(NewsListViewModel.class)
-    abstract ViewModel bindMovieListViewModel(NewsListViewModel newsListViewModel);
+    abstract ViewModel bindNewsListViewModel(NewsListViewModel newsListViewModel);
 
 
     @Binds

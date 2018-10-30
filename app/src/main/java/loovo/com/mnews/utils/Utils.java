@@ -27,7 +27,6 @@ public class Utils {
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
         try {
             date = format.parse(dateString);
-            System.out.println(date);
         } catch (ParseException e) {
             e.printStackTrace();
         }

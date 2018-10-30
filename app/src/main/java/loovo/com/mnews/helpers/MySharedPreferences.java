@@ -20,12 +20,10 @@ public class MySharedPreferences {
 
     @Inject
     public MySharedPreferences(SharedPreferences mSharedPreferences) {
-        System.out.println("new my sharedprefrence created");
         this.mSharedPreferences = mSharedPreferences;
     }
 
     public void putSearchFilter(SearchFilter searchFilter) {
-        System.out.println("new search filter added");
         String json = gson.toJson(searchFilter);
         mSharedPreferences.edit().putString(SEARCHFILTERKEY, json).apply();
     }

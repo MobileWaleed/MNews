@@ -20,7 +20,7 @@ import loovo.com.mnews.utils.Utils;
 import loovo.com.mnews.view.callback.NewsCallback;
 
 
-public class NewsListAdapter extends RecyclerView.Adapter<NewsListAdapter.MovieViewHolder> {
+public class NewsListAdapter extends RecyclerView.Adapter<NewsListAdapter.NewsViewHolder> {
 
     private List<NewsItem> mNewsList = new ArrayList<>();
     private NewsCallback mNewsCallback;
@@ -30,14 +30,14 @@ public class NewsListAdapter extends RecyclerView.Adapter<NewsListAdapter.MovieV
     }
 
     @Override
-    public MovieViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public NewsViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.news_list_items, parent, false);
-        return new MovieViewHolder(view);
+        return new NewsViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(MovieViewHolder holder, int position) {
+    public void onBindViewHolder(NewsViewHolder holder, int position) {
 
         NewsItem newsItem = mNewsList.get(position);
         Glide.with(holder.newsImage.getContext())
@@ -70,7 +70,7 @@ public class NewsListAdapter extends RecyclerView.Adapter<NewsListAdapter.MovieV
     /**
      * ViewHolder class
      */
-    public class MovieViewHolder extends RecyclerView.ViewHolder {
+    public class NewsViewHolder extends RecyclerView.ViewHolder {
 
         @BindView(R.id.featureImage)
         public ImageView newsImage;
@@ -84,7 +84,7 @@ public class NewsListAdapter extends RecyclerView.Adapter<NewsListAdapter.MovieV
         public TextView relativeTime;
         public View itemView;
 
-        public MovieViewHolder(View itemView) {
+        public NewsViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
 
